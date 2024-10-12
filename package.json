@@ -1,0 +1,22 @@
+{
+  "name": "nuxt-app",
+  "private": true,
+  "type": "module",
+  "packageManager": "pnpm@9.12.1",
+  "scripts": {
+    "build": "nuxt build",
+    "dev": "nuxt dev",
+    "generate": "nuxt generate",
+    "preview": "nuxt preview",
+    "postinstall": "nuxt prepare"
+  },
+  "dependencies": {
+    "algoliasearch": "^4.22.1",
+    "algoliasearch-helper": "^3.22.5",
+    "nuxt": "^3.13.0",
+    "vue": "latest",
+    "vue-router": "latest",
+    "vue-instantsearch": "^4.19.6",
+    "instantsearch.js": "^4.64.3"
+  }
+}
