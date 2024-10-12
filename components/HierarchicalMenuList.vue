@@ -1,8 +1,6 @@
 <template>
   <ul v-if="items && items.length > 0">
     <li v-for="item in items" :key="item.value">
-      <!-- <pre>{{ item }}</pre> -->
-       {{ createURL(item.value) }}
       <NuxtLink :to="createURL(item.value)" :external="true">
         <span>{{ item.label }}</span>
         <span>{{ item.count }}</span>

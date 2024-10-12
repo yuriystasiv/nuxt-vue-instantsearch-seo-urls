@@ -20,7 +20,7 @@ const searchQuery = () => {
   if (query.value) {
     router.push({
       path: "/search",
-      query: { q: query.value },
+      query: { query: query.value },
     });
   }
 };
